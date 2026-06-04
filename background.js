@@ -9,7 +9,7 @@ browser.runtime.onMessage.addListener(
         }
 
         const API_KEY =
-            "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";
+            "api_key";
 
         const response =
             await fetch(
